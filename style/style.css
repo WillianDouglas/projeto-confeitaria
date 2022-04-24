@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'BrokenHeart';
+    src: url('../fonts/BrokenHeart.ttf') format('truetype');
+    
+}
+
+@font-face {
+    font-family: '18thCentury';
+    src: url('../fonts/18thCentury.ttf') format('truetype');
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,18 +19,96 @@
 }
 
 body {
-    
+    background-color: #562c1e56;
 }
 
 header {
+    background-image: linear-gradient(to bottom, #180C08, #5e3122, #180C08);
+    text-align: center;
+    padding: 15px;
+}
 
+header > h1#title1 {
+    max-height: 110px;
+    font-family: 'BrokenHeart', Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+header > h1#title2 {
+    max-height: 40px;
+    font-family: '18thCentury', 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px;
+    color: white;
 }
 
 nav {
+    background-color: #562c1e;
+    text-decoration: none;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 10px;
+}
 
+nav > a {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    padding: 0px 10px;
+}
+
+nav > a:hover {
+    background-color: #673524;
+    color: orange;
+    text-shadow: none;
+    padding: 10px 10px;
 }
 
 main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+article {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+
+main > article > picture > section {
+    margin-left: 100px;
+}
+
+main > article > picture > section > a > img {
+    height: 350px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.647);
+}
+
+img.img1 {
+    margin-right: 20px;
+}
+
+img.img2 {
+    margin-right: 20px;
+}
+
+img.img3 {
+    margin-right: 20px;
+}
+
+img.img4 {
+    margin-right: 20px;
+}
+
+main > article > picture > section > a > img:hover {
 
 }
 
