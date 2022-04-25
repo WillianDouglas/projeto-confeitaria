@@ -80,8 +80,22 @@ article {
     border-radius: 10px;
 }
 
+h1#titlepascoa {
+    color: white;
+    background-color: #562c1e;
+    font-family: '';
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px 5px black;
+    margin-bottom: 20px;
+}
+
 main > article > picture > section {
-    margin-left: 100px;
+
 }
 
 main > article > picture > section > a > img {
@@ -93,20 +107,24 @@ main > article > picture > section > a > img {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.647);
 }
 
+picture {
+    text-align: center;
+}
+
 img.img1 {
-    margin-right: 20px;
+    margin: 20px 10px;
 }
 
 img.img2 {
-    margin-right: 20px;
+    margin: 20px 10px;
 }
 
 img.img3 {
-    margin-right: 20px;
+    margin: 20px 10px;  
 }
 
 img.img4 {
-    margin-right: 20px;
+    margin: 20px 10px;  
 }
 
 main > article > picture > section > a > img:hover {
