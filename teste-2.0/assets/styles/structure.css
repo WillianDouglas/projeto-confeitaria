@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Blinking';
+    src: url(../fonts/Blinking.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Freshca';
+    src: url(../fonts/Freshca-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Queen';
+    src: url(../fonts/Saint-Andrews\ Queen.ttf) format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #fdcbe8;
+}
+
+header{
+    display: block;
+}
+
+header > h1{
+    display: block;
+    color: rgb(216, 137, 192);
+    font-family: 'Freshca';
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.795);
+    background-color: rgb(241, 241, 183);
+    font-size: 80px;
+    text-align: center;
+    height: 170px;
+}
+
+
+nav {
+    font-family: 'Blinking';
+    text-align: center;
+    background: linear-gradient(#7a593e, #422e1e);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+}
+
+nav > a {
+    font-size: 25px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav > a:hover{
+    background-color: rgb(255, 112, 212);
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+}
+
+main > p{
+    padding: 10px;
+    text-indent: 10px;
+}
